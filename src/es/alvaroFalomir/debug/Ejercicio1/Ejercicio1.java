@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 8 7 6 5 4 3 2 1
 
-7 6 5 4 3 2 
+7 6 5 4 3 2 1
 
 6 5 4 3 2 1
 
@@ -33,12 +33,7 @@ public class Ejercicio1 {
         int num;
         Scanner sc = new Scanner(System.in);
         System.out.print("Entra numero: ");
-        num = sc.nextInt();
-        for (int i = num; i > 0; i++) {
-            for (int j = num; j > 0; j--) {
-                System.out.print(j);
-            }
-            System.out.println();
-        }
+        num = 10;
+        System.out.println("Este es mi cambio");
     }
 }
